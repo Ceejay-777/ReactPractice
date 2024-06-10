@@ -1,8 +1,24 @@
-# React + Vite
+# React Upskill Exercises
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A repo documenting my attempts to fill in my knowledge gaps in react and basically upskill from that point. 
 
-Currently, two official plugins are available:
+## Basic react concepts
+- Component life cycle
+- List and keys
+- Render props 
+- Refs
+- Events
+- Composition
+- Compound components
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Advanced react concepts
+- UseCallback
+- UseMemo
+- Error boundaries (react-error-boundary package)
+- Custom hooks
+- Higher Order components
+- UseReducer
+
+## State Management
+- Redux
+- MobX
