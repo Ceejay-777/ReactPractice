@@ -3,7 +3,6 @@ import { useErrorBoundary } from "react-error-boundary";
 
 const ExampleApplication = () => {
   const { showBoundary } = useErrorBoundary();
-  const [isError, setIsError] = useState(false);
   const [count, setCount] = useState(0);
 
   const handleError = () => {
