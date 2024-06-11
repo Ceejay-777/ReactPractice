@@ -3,6 +3,8 @@ import JustAButtonWithCounter from "./Projects/HigherOrderComps/JustAButton";
 import ErrorUseTypes from "./Projects/ErrorBoundaries/ErrorUseTypes";
 import UseReducerExample from "./Projects/HookUseReducer/UseReducerExample";
 import Counter from "./Projects/Redux/features/counter/Counter";
+import PostsList from "./Projects/Redux/features/posts/PostsList";
+import AddPostForm from "./Projects/Redux/features/posts/AddPostForm";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
       {/* <JustAButtonWithCounter /> */}
       {/* <ErrorUseTypes /> */}
       {/* <UseReducerExample /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <AddPostForm />
+      <PostsList />
     </>
   );
 }
