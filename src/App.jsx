@@ -5,6 +5,7 @@ import UseReducerExample from "./Projects/HookUseReducer/UseReducerExample";
 import Counter from "./Projects/Redux/features/counter/Counter";
 import PostsList from "./Projects/Redux/features/posts/PostsList";
 import AddPostForm from "./Projects/Redux/features/posts/AddPostForm";
+import Console from "./Projects/console";
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       {/* <ErrorUseTypes /> */}
       {/* <UseReducerExample /> */}
       {/* <Counter /> */}
-      <AddPostForm />
-      <PostsList />
+      {/* <AddPostForm />
+      <PostsList /> */}
+      <Console />
     </>
   );
 }
